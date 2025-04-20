@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
-     "start": "node server.js",
-    "build": "webpack --config webpack.config.js"
+    "start:debug": "evershop start --debug",
+    "build": "evershop build"
   },
   "dependencies": {
     "@evershop/evershop": "^1.2.2"
