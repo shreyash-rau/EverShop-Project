@@ -10,10 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
     "build": "evershop build",
-    "start": "evershop start"
+    "start": "evershop start",
+    "dev": "evershop start"
   },
   "dependencies": {
     "@evershop/evershop": "^1.2.2",
-    "@neondatabase/serverless": "^1.0.0"
+    "@neondatabase/serverless": "^1.0.0",
+    "pg": "^8.14.1"
   }
 }
